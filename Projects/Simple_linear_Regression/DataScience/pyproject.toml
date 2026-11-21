@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "econometrics-analysis"
+version = "0.1.0"
+dependencies = [
+    "pandas",
+    "huggingface_hub",
+    "pyarrow",
+    "odfpy",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "scipy",
+    "statsmodels",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["data_loader", "slr_plots"]
