@@ -1,0 +1,7 @@
+import { useMemo } from 'react';
+import katex from 'katex';
+import 'katex/dist/katex.min.css';
+export default function MathFormula({tex,block=true}:{tex:string;block?:boolean}) {
+ const html=useMemo(()=>katex.renderToString(tex,{displayMode:block,throwOnError:false,output:'htmlAndMathml',trust:false,strict:'warn'}),[tex,block]);
+ return <div className={`math-formula ${block?'display':'inline'}`} dangerouslySetInnerHTML={{__html:html}}/>;
+}
