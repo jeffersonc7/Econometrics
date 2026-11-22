@@ -1,0 +1,20 @@
+{
+  "note": "Hashes de fuentes de an\u00e1lisis; verificar al cierre. Se excluyen entorno y cach\u00e9 preexistentes.",
+  "files": {
+    "DataScience/.gitignore": "222bcbd3dbdbf9ea3ec5b8d4608880f5efd7ae1e6bcc19e51fb86eed75baf047",
+    "DataScience/data/interim/data_inspection.parquet": "9c22501d30a80a7e333dba7f8ecf7e728dd2b8d2c2dee9db39d0d8236b248e4a",
+    "DataScience/data/processed/data_clean.parquet": "8c59cf438743d06e2e1da2f00ae83575a159a353eb33e829259992115fa3e1a7",
+    "DataScience/econometrics_analysis.egg-info/PKG-INFO": "f427f7255b6da4254bcffb5525f6194342dad422b634a772dcbf00dd00b58d54",
+    "DataScience/econometrics_analysis.egg-info/SOURCES.txt": "b681a1f037159a0185558f5fe1ea354d1a8b5f9437d1eb28ab39fb28761c6618",
+    "DataScience/econometrics_analysis.egg-info/dependency_links.txt": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "DataScience/econometrics_analysis.egg-info/requires.txt": "22a258f9f9ce49a8334b89ab75ae7b77b1e35951e3ffe09fec7b3744dada5ba6",
+    "DataScience/econometrics_analysis.egg-info/top_level.txt": "c788d2b5a0716c4a2d7070b8aa962fe18012ee79c24f75bbc91ba6da19c424e1",
+    "DataScience/notebooks/01. data_inspection.ipynb": "7fe568cf622208a898faefa3294379ca86367be69742946fb32131a9a9c13f0e",
+    "DataScience/notebooks/02. data_cleaning.ipynb": "e51d7c4e0a961c5c4b289028f4b83344d8435b440f0f1e7cb1f6f0f48ff07c19",
+    "DataScience/notebooks/03. EDA.ipynb": "28f4f5a482c11c78fcbbafe34f71a7cbf45755e3ee01952ccaf1ec107711f623",
+    "DataScience/notebooks/04. SLR.ipynb": "9714df7263345dce6b2695c84648e79d2d28cd5f6acba180c620b36c1ed68106",
+    "DataScience/pyproject.toml": "e8ffbe864de67277c952beb62d451c371a788bfabea4367919233195160b1561",
+    "DataScience/src/data_loader.py": "6741e9b10ff0016395ed2b68252f20b7e56e30310b73d25e2db314142410ab90",
+    "DataScience/src/slr_plots.py": "6aceacde08484d79aa3681c174dcd0901bdc1648f3e12539b03c749538d95173"
+  }
+}

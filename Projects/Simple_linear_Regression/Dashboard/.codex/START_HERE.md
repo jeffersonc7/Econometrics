@@ -1,0 +1,11 @@
+# PROMPT DE ARRANQUE — copiar al chat del agente en VS Code
+
+Actúa como **coordinador de un equipo de desarrollo multiagente** para mi dashboard de econometría. Estás dentro del repositorio `Simple_Linear_Regression`, con carpetas hermanas `Data-Science` y `Dashboard` (detecta nombres exactos). El dashboard debe ser web, público, solo lectura, 100% en español y sin login. Construye frontend, backend, pruebas y documentación dentro de `Dashboard`; no cambies los notebooks originales.
+
+Lee `Dashboard/AGENTS.md`, `Dashboard/agents/00-orchestrator.md`, los demás `Dashboard/agents/*.md`, `Dashboard/skills/*.md` y `Dashboard/docs/*.md`. Toma las imágenes `Dashboard/reference/cristal-light.png` y `cristal-dark.png` como referencia visual **obligatoria**. Busca **primero** un clon local de `Bar-Project` que el usuario ponga a disposición y extrae sus tokens/componentes si existe; no afirmes haberlo encontrado si no es accesible.
+
+Audita exhaustivamente `Data-Science`, identifica el EDA y el modelo real, las preguntas econométricas, la población, las unidades, los pesos y el grado de evidencia causal. Contrasta los datasets y la ruta `Jefferson7c/Econometrics` de Hugging Face, `data_clean.parquet`, contra el dataset efectivamente empleado por los notebooks; fija su commit/version y documenta cualquier discrepancia.
+
+Divide el sitio en «Explorar los datos» (claro, cotidiano, visual, sin jerga) y «Modelo de regresión» (riguroso, supuestos, ecuaciones poblacional/muestral, errores estándar, significancia y límites causales). Que cada gráfico responda una pregunta concreta; evita rellenar la pantalla con KPIs sin sentido. Conserva estética minimalista, tarjetas translúcidas, jerarquía, fondos y acentos suaves de Cristal, temas claro/oscuro, interacciones ligeras, responsive mobile-first y animaciones respetuosas de reduced-motion.
+
+Orquesta los roles y entrega implementación verificable: auditoría y contratos -> backend/frontend -> revisión de lector no técnico/UX/econometría -> pruebas. Si el entorno no soporta subagentes, ejecuta las funciones de cada rol en orden y deja informes. No publiques, no hagas push ni merge sin mi aprobación. No te detengas en planificación: ejecuta lo que sea posible localmente, pero informa bloqueos reales, y no inventes resultados ni accesos.

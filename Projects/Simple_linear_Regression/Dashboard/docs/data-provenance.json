@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0.0",
+  "author": "agente auditor/custodio de datos",
+  "verified_at": "2026-11-16",
+  "status": "verified_with_metadata_limitations",
+  "repo_id": "Jefferson7c/Econometrics",
+  "repo_type": "dataset",
+  "revision": "d8a5794b62c4e5ec1f7f11b41c28d4ac82d47698",
+  "hub_last_modified": "2026-11-16T15:06:47.000Z",
+  "public": true,
+  "gated": false,
+  "declared_license": "mit",
+  "license_scope_note": "Declaración HF; publicar solo agregados, sin asumir permiso ilimitado sobre microdatos identificables.",
+  "source_url": "https://huggingface.co/datasets/Jefferson7c/Econometrics/tree/d8a5794b62c4e5ec1f7f11b41c28d4ac82d47698",
+  "files": [
+    {
+      "path": "Dashboard/data/source/HF_README.md",
+      "bytes": 21,
+      "sha256": "3e0e15fa0c5cc81675bd69af8eb469d128a725c1a7bfc71f03b7877b7b650567"
+    },
+    {
+      "path": "Dashboard/data/source/data_clean.parquet",
+      "bytes": 533387,
+      "sha256": "8c59cf438743d06e2e1da2f00ae83575a159a353eb33e829259992115fa3e1a7"
+    },
+    {
+      "path": "Dashboard/data/source/enemdu_persona_tics_2025_07.csv",
+      "bytes": 12789333,
+      "sha256": "a7071161a63c18cdbb4b6c48e06103c357baf06b961df47259c1d9959dc689ff"
+    },
+    {
+      "path": "Dashboard/data/source/persona_dictionary.ods",
+      "bytes": 8157,
+      "sha256": "f921b47ed02dd8467a7ef169df59580d2735ff8d443c29a488282948e3570e7a"
+    }
+  ],
+  "local_clean_path": "DataScience/data/processed/data_clean.parquet",
+  "local_clean_sha256": "8c59cf438743d06e2e1da2f00ae83575a159a353eb33e829259992115fa3e1a7",
+  "remote_local_byte_identical": true,
+  "cleaning_reproduced_all_19_columns": true,
+  "notebooks": [
+    {
+      "path": "DataScience/notebooks/01. data_inspection.ipynb",
+      "sha256": "7fe568cf622208a898faefa3294379ca86367be69742946fb32131a9a9c13f0e"
+    },
+    {
+      "path": "DataScience/notebooks/02. data_cleaning.ipynb",
+      "sha256": "e51d7c4e0a961c5c4b289028f4b83344d8435b440f0f1e7cb1f6f0f48ff07c19"
+    },
+    {
+      "path": "DataScience/notebooks/03. EDA.ipynb",
+      "sha256": "28f4f5a482c11c78fcbbafe34f71a7cbf45755e3ee01952ccaf1ec107711f623"
+    },
+    {
+      "path": "DataScience/notebooks/04. SLR.ipynb",
+      "sha256": "9714df7263345dce6b2695c84648e79d2d28cd5f6acba180c620b36c1ed68106"
+    }
+  ],
+  "rows": 27509,
+  "columns": 19,
+  "period": "202507",
+  "survey_month": "2025-07",
+  "income_reference_month": "2025-06",
+  "join_keys": [
+    "id_persona",
+    "periodo"
+  ],
+  "sample_filter": "empleo == '1' and p03 >= 15 and pt3a == '1' and pt3b/ingrl not missing",
+  "selection_counts": [
+    27509,
+    13299,
+    10091,
+    9881
+  ],
+  "sample_n": 9881,
+  "sample_households": 6448,
+  "sample_upm": 1286,
+  "sample_strata": 150,
+  "raw_missingness_limits": [
+    "El ODS incluye nombres/descripciones pero no todos los códigos especiales.",
+    "367 de 1803 filas Potentially out of scope tienen >=5 años; no etiquetar todas como menores de cinco."
+  ],
+  "official_questionnaire": "https://www.ecuadorencifras.gob.ec/documentos/web-inec/Estadisticas_Sociales/TIC/2025/202507_Formulario_ENEMDU_Julio_2025.pdf",
+  "public_artifact_policy": "aggregates_only",
+  "dashboard_version": "1.0.0"
+}

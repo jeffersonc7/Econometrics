@@ -1,0 +1,12 @@
+{
+  "project_id": "appgprj_6afb32c726f0819191d0e1482ab512e7",
+  "version_id": "appgprj_6afb32c726f0819191d0e1482ab512e7~appgver_b93f66777fb48191bc3bbc8d008c723a",
+  "deployment_id": "appgdep_6afb335e059c8191bfef9d71f6697ff8",
+  "commit_sha": "6e7f01858047a76faad761ee3184aa4ad6d4663e",
+  "status": "succeeded",
+  "access_mode": "public",
+  "url": "https://cristal-econometria-ecuador.palebrownie3.chatgpt.site",
+  "published_at": "2026-11-16T16:46:29.716343+00:00",
+  "source_checkout": "Dashboard/published-site",
+  "artifact": "Dashboard/site-deploy.tar.gz"
+}
