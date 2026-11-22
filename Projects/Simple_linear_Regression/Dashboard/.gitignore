@@ -8,3 +8,9 @@ frontend/dist/
 frontend/test-results/
 frontend/playwright-report/
 .env
+
+# Local hosting metadata, legacy site checkout, and generated archives
+frontend/.openai/
+published-site/
+site-deploy.tar.gz
+entrega/*.zip
